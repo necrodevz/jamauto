@@ -1,5 +1,6 @@
 {
   "name": "jamauto",
+  "version": "v0.0.1",
   "private": true,
   "dependencies": {
     "@rails/webpacker": "^3.0.2",
