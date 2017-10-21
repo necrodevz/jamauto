@@ -1,0 +1,2 @@
+web: ./bin/rails server -b $IP -p $PORT
+webpacker: ./bin/webpack --progress --watch
