@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  prifile_image: MyString
+  name: MyString
+  about_me: MyString
+  has_many: 
+
+two:
+  prifile_image: MyString
+  name: MyString
+  about_me: MyString
+  has_many: 

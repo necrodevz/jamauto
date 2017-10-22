@@ -8,6 +8,12 @@ end
 
 gem 'graphql'
 
+# Standard Auth0 requirements
+gem 'omniauth', '~> 1.3.1'
+gem 'omniauth-auth0', '~> 1.4.1'
+# Secrets should never be stored in code
+gem 'dotenv-rails', require: 'dotenv/rails-now', group: [:development, :test]
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 # Use postgresql as the database for Active Record
