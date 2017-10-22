@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  get 'auth0/callback'
+  get '/login', to:'pages#login'
 
-  get 'auth0/failure'
+  # Auth0 routes for authentication
+  get '/auth/auth0/callback' => 'auth0#callback'
+  get '/auth/failure'        => 'auth0#failure'
 
   get 'dashboard/show'
 

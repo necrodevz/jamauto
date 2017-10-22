@@ -7,6 +7,7 @@ end
 
 
 gem 'graphql'
+gem 'pundit'
 
 # Standard Auth0 requirements
 gem 'omniauth', '~> 1.3.1'
